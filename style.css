@@ -1,0 +1,44 @@
+body{
+    background-color:#080705 ;
+    color: white;
+    margin: 0;
+}
+nav{
+    display: flex;
+    height: 60px;
+    flex-direction: row;
+    gap: 30px;
+    padding: 10px;
+    align-items: center;
+    background-color: #E5F2C9;
+    color: white;
+    font-size: 25px;
+}
+.social-icons{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 30px;
+}
+.social{
+    width: 30px;
+    height: 30px;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.personal-pic{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: #41463D;
+}

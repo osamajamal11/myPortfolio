@@ -96,6 +96,10 @@ p{
     padding: 50px;
     color: white;
 }
+li{
+    list-style: none;
+    
+}
 
 
 a{

@@ -1,4 +1,4 @@
-body{
+*{
     margin: 0;
 }
 nav{
@@ -51,7 +51,7 @@ p{
 }
 #about{
     padding: 20px;
-    background-color: #FFE5D9;
+    background-image: linear-gradient(to right , #1abc9c,#3498db );
     color: black;
 }
 .about{
@@ -59,34 +59,35 @@ p{
     text-align: center;
     
 }
-
 .eg-con{
-    margin-top: 60px;
+    margin-top: 100px;
     display: flex;
     gap: 40px;
     justify-content: space-evenly;
 
 }
-.p-con{
-    height: 1500px;
-    /* margin-top: 50px; */
-    background-color: #D8E2DC;
-    text-align: center;
-}
+
 .proj-con{
-    height:90% ;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-top: 30px;
-    justify-content: center;
-    align-items: center;
+    height: 1350px;
+    background-image: linear-gradient(to right , #1abc9c,#3498db );
+    text-align: center;
 }
 .mandrian,.tin,.portfolio{
         display: flex;
-        flex-direction: column;
-        gap: 19px;
-        margin-top: 40px;
+        gap: 70px;
+        align-items: center;
+        margin: 20px 20px 70px 20px;
+}
+.proj-des{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
 }
 #footer{
     background-color: #26C485;
@@ -100,34 +101,7 @@ li{
     list-style: none;
     
 }
-
-
 a{
     text-decoration: none;
     color: #41463D;
-}
-@media (max-width: 1000px){
-    nav{
-        width: 100%;
-        font-size: 20px;
-        gap: 10px;
-        justify-content: center;
-        align-items: center;
-    }
-    .container{
-        justify-content: center;
-        align-items: center;
-    }
-    .personal-pic{
-        width: 320px;
-        height: 320px;
-        display: block;
-        position: relative;
-        left: 50px;
-        margin-bottom: 20px;
-    }
-    h1{
-        font-size: 20px;
-        
-    }
 }

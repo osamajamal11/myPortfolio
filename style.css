@@ -1,5 +1,9 @@
 *{
     margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ECE5F0;
 }
 nav{
     display: flex;
@@ -47,17 +51,33 @@ nav{
 }
 p{
     line-height: 1.5;
-    letter-spacing: 3px;
+    letter-spacing: 1.5px;
 }
+/* .divider{
+    height: 30px;
+    background-image: linear-gradient(to right , rgba(0, 0, 0, 0.703) , #3498db82 );
+} */
 #about{
     padding: 20px;
-    background-image: linear-gradient(to right , #1abc9c,#3498db );
+    background-image: linear-gradient(to right , #7EBC89,#C1DBB3 );
     color: black;
 }
 .about{
     height: 550px;
     text-align: center;
     
+}
+.ab{
+    font-size: 30px; 
+    margin-bottom: 20px;
+    position: relative;
+    top: 35px;
+}
+.me{
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 40px;
 }
 .eg-con{
     margin-top: 100px;
@@ -68,15 +88,27 @@ p{
 }
 
 .proj-con{
-    height: 1350px;
-    background-image: linear-gradient(to right , #1abc9c,#3498db );
+    height: 500px;
+    /* margin-top: 5px; */
+    background-color:  #6B8A75;
     text-align: center;
+    color: white;
 }
-.mandrian,.tin,.portfolio{
+.work{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+}
+.mandrian,.tin,.Calculator{
         display: flex;
-        gap: 70px;
+        flex-direction: column;
+        gap: 50px;
         align-items: center;
-        margin: 20px 20px 70px 20px;
+        width: 400px;
+        overflow: hidden;
+        object-fit: cover;
 }
 .proj-des{
     display: flex;
@@ -90,7 +122,7 @@ h3{
     font-weight: bold;
 }
 #footer{
-    background-color: #26C485;
+    background-image: linear-gradient(to right , #1abc9c,#3498db );
 }
 .footer{
     height: 200px;
@@ -99,6 +131,12 @@ h3{
 }
 li{
     list-style: none;
+}
+.con-soc{
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+    margin-top: 10px    ;
     
 }
 a{
